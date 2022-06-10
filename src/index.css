@@ -1,0 +1,318 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: white;
+}
+
+a {
+  color: black;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 72px;
+  display: flex;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.nav--title {
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+  margin: auto 60px auto 60px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo {
+  max-width: 80vw;
+  max-height: 80vh;
+  align-self: center;
+  margin: 20px;
+  margin-top: 92px;
+}
+
+.partnered-property-list--container {
+  margin: 20px 60px 20px 60px;
+}
+
+.cards-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+
+.card {
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.card--image {
+  width: 260px;
+  height: 260px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+  object-fit: cover;
+}
+
+/* ADD */
+.card--name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 4px 0px 4px 0px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+
+.card--rating {
+  margin-left: 2px;
+}
+
+.card--price-text {
+  margin-top: auto;
+}
+
+.card--price {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918e9b;
+  margin-left: 4px;
+}
+
+.property-page--container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 92px 60px 20px 60px;
+}
+
+.property-page--name {
+  width: 100%;
+  font-size: 36px;
+  color: black;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.property-page--other-links {
+  margin: 8px 0px 8px 0px;
+}
+
+.property-page--other-links--location {
+  float: left;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.property-page--other-links--share {
+  float: right;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.property-page--images-container {
+  margin: 12px 0px 12px 0px;
+}
+
+.property-page--cover-image {
+  width: calc(50% - 4px);
+  background-color: gray;
+  border-radius: 12px 0px 0px 12px;
+  object-fit: cover;
+  margin-right: 4px;
+}
+
+.property-page--image-2 {
+  width: calc(50% - 4px);
+  background-color: gray;
+  border-radius: 0px 12px 12px 0px;
+  object-fit: cover;
+  margin-left: 4px;
+}
+
+.property-page-overview-container {
+  width: 100%;
+  display: flex;
+}
+
+.property-page-overview-text {
+  width: calc(50% - 16px);
+  margin-right: 16px;
+  white-space: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.property-page--overview-stats {
+  width: calc(50% - 16px);
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.property-page--rating {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.property-page--review {
+  margin-bottom: 72px;
+}
+
+.property-page--rating-icon {
+  width: 44px;
+  height: 44px;
+  margin-right: 16px;
+}
+
+.property-page--rating-value {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.property-page--review-count {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.property-page--rating-total,
+.property-page--review-text {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.property-page--amenities-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+
+.property-page--amenity-icon {
+  text-align: center;
+  width: 12px;
+  height: 12px;
+}
+
+.property-page--amenity-name {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+  margin-left: 8px;
+}
+
+.property-page--rules-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.property-page--rule-icon {
+  text-align: center;
+  width: 12px;
+  height: 12px;
+}
+
+.property-page--rule-text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+  margin-left: 8px;
+}
+
+.property-page--section-header {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.property-page--section-divider {
+  width: 100%;
+  border-top: 1px solid lightgray;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.wedding-banner {
+  position: relative;
+  width: calc(100% - 120px);
+  margin: 60px 60px 60px 60px;
+  background-color: #3c4f76;
+  max-width: 1760px;
+  min-height: 360px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.wedding-banner--container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.wedding-banner--main-text {
+  font-size: 44px;
+  line-height: 44px;
+  font-weight: 400;
+  color: white;
+  margin: 0px;
+}
+
+.wedding-banner--sub-text {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.wedding-banner--button {
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  background: transparent;
+  color: white;
+  padding: 12px 18px;
+  font-family: inherit;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  border-top: 0.5px solid gray;
+  height: 64px;
+  padding: 20px;
+}
