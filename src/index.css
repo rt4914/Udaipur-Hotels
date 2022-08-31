@@ -27,7 +27,7 @@ nav {
   font-size: 18px;
   color: black;
   font-weight: 700;
-  margin: auto 60px auto 60px;
+  margin: auto 120px auto 120px;
 }
 
 .hero {
@@ -44,7 +44,7 @@ nav {
 }
 
 .partnered-property-list--container {
-  margin: 20px 60px 20px 60px;
+  margin: 20px 120px 20px 120px;
 }
 
 .cards-list {
@@ -55,6 +55,7 @@ nav {
 }
 
 .card {
+  width: 260px;
   border-radius: 4px;
   padding: 0.5rem;
 }
@@ -67,8 +68,8 @@ nav {
   object-fit: cover;
 }
 
-/* ADD */
 .card--name {
+  width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: bold;
@@ -78,6 +79,7 @@ nav {
 }
 
 .card--stats {
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -107,7 +109,7 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 92px 60px 20px 60px;
+  padding: 92px 120px 20px 120px;
 }
 
 .property-page--name {
@@ -141,7 +143,7 @@ nav {
 .property-page--cover-image {
   width: calc(50% - 4px);
   background-color: gray;
-  border-radius: 12px 0px 0px 12px;
+  border-radius: 12px;
   object-fit: cover;
   margin-right: 4px;
 }
@@ -264,7 +266,7 @@ nav {
 .wedding-banner {
   position: relative;
   width: calc(100% - 120px);
-  margin: 60px 60px 60px 60px;
+  margin: 60px 120px 60px 120px;
   background-color: #3c4f76;
   max-width: 1760px;
   min-height: 360px;

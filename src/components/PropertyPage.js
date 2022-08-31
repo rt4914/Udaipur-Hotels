@@ -46,13 +46,14 @@ export default function PropertyPage(props) {
         <div className="property-page--container">
             <h2 className="property-page--name">{props.name}</h2>
             <div className="property-page--other-links">
-                <span className="property-page--other-links--location"><a href="url">{props.location}</a></span>
-                <span className="property-page--other-links--share"><a href="url">Share</a></span>
+                <span className="property-page--other-links--location"><a href={`${props.mapLocation}`} target>{props.location}</a></span>
+                {/* <span className="property-page--other-links--share"><a href="url">Share</a></span> */}
             </div>
 
             {/* Images Section */}
             <div className="property-page--images-container">
                 <img className="property-page--cover-image" src={`${props.coverImage}`}  />
+
                 <img className="property-page--image-2" src={`${props.otherImages[0]}`}  />
             </div>
             

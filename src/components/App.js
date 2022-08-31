@@ -30,11 +30,12 @@ export default class App extends React.Component{
         <PropertyPage 
           key={item.id}
           id={item.id}
-          coverImage={item.coverImg}
-          otherImages={item.otherImages}
+          coverImage={item.cover_image}
+          otherImages={item.other_images}
           rating={item.stats.rating}
-          reviewCount={item.stats.reviewCount}
+          reviewCount={item.stats.review_count}
           location={item.location}
+          mapLocation={item.map_location}
           name={item.name}
           description={item.description}
           minimumPrice={item.price.minimum}
@@ -59,9 +60,9 @@ export default class App extends React.Component{
           <PartneredPropertyCard 
               key={item.id}
               id={item.id}
-              coverImage={item.coverImg}
+              coverImage={item.cover_image}
               rating={item.stats.rating}
-              reviewCount={item.stats.reviewCount}
+              reviewCount={item.stats.review_count}
               location={item.location}
               name={item.name}
               description={item.description}
