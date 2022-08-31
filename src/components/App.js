@@ -12,7 +12,7 @@ export default class App extends React.Component{
   constructor() {
     super();
     this.state = {
-      showHomePage: false,
+      showHomePage: true,
       id: 1,
     };
   }
@@ -28,7 +28,6 @@ export default class App extends React.Component{
     if(item != null){
       return(
         <PropertyPage 
-          key={item.id}
           key={item.id}
           id={item.id}
           coverImage={item.coverImg}

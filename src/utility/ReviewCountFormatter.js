@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function ReviewCountFormatter(reviewCount) {
     if(reviewCount <=0){
         return "N/A";

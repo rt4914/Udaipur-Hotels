@@ -60,12 +60,12 @@ export default function PropertyPage(props) {
             {overviewSection}
             
             {/* Map Section */}
-            <div className="property-page--section-divider"/>
-            <h3 className="property-page--section-header">Where you’ll be</h3>
+            {/* <div className="property-page--section-divider"/>
+            <h3 className="property-page--section-header">Where you’ll be</h3> */}
             
             {/* Rooms Section */}
-            <div className="property-page--section-divider"/>
-            <h3 className="property-page--section-header">Types of rooms</h3>
+            {/* <div className="property-page--section-divider"/>
+            <h3 className="property-page--section-header">Types of rooms</h3> */}
             
             {/* Amenities Section */}
             {amenitiesSection}
