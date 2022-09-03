@@ -11,6 +11,7 @@ export default [
         },
         cover_image: "https://github.com/rt4914/Udaipur-Hotels-Images/blob/main/hotel-images/aaj-haveli.jpeg?raw=true",
         other_images:[
+            "https://github.com/rt4914/Udaipur-Hotels-Images/blob/main/hotel-images/aaj-haveli-2.JPG?raw=true"
         ],
         stats: {
             rating: 4.8,
@@ -49,6 +50,7 @@ export default [
         },
         cover_image: "https://github.com/rt4914/Udaipur-Hotels-Images/blob/main/hotel-images/dheergarh-palace.jpeg?raw=true",
         other_images:[
+            "https://github.com/rt4914/Udaipur-Hotels-Images/blob/main/hotel-images/dheergarh-palace-2.jpg?raw=true"
         ],
         stats: {
             rating: 4.9,
@@ -67,6 +69,7 @@ export default [
         },
         cover_image: "https://github.com/rt4914/Udaipur-Hotels-Images/blob/main/hotel-images/atithi-bhanwar.jpeg?raw=true",
         other_images:[
+            "https://github.com/rt4914/Udaipur-Hotels-Images/blob/main/hotel-images/atithi-bhanwar-2.jpg?raw=true"
         ],
         stats: {
             rating: 4.5,
@@ -85,6 +88,7 @@ export default [
         },
         cover_image: "https://github.com/rt4914/Udaipur-Hotels-Images/blob/main/hotel-images/florence-continental.jpeg?raw=true",
         other_images:[
+            "https://github.com/rt4914/Udaipur-Hotels-Images/blob/main/hotel-images/hotel-florence-2.jpg?raw=true"
         ],
         stats: {
             rating: 4.8,
@@ -103,6 +107,7 @@ export default [
         },
         cover_image: "https://github.com/rt4914/Udaipur-Hotels-Images/blob/main/hotel-images/petal-of-mewar.jpeg?raw=true",
         other_images:[
+            "https://github.com/rt4914/Udaipur-Hotels-Images/blob/main/hotel-images/petal-of-mewar-2.JPG?raw=true"
         ],
         stats: {
             rating: 4.2,
@@ -121,6 +126,7 @@ export default [
         },
         cover_image: "https://github.com/rt4914/Udaipur-Hotels-Images/blob/main/hotel-images/hotel-celebration.jpeg?raw=true",
         other_images:[
+            "https://github.com/rt4914/Udaipur-Hotels-Images/blob/main/hotel-images/hotel_celebration.jpg?raw=true"
         ],
         stats: {
             rating: 4.2,

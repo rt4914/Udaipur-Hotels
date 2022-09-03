@@ -143,7 +143,7 @@ nav {
 .property-page--cover-image {
   width: calc(50% - 4px);
   background-color: gray;
-  border-radius: 12px;
+  border-radius: 12px 0px 0px 12px;
   object-fit: cover;
   margin-right: 4px;
 }
